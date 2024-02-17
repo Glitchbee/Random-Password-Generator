@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #14213d;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    font-weight: 6000;
+    font-size: 2.8em;
+    line-height: 1.4;
+}
+
+h1 span {
+    color: #fca311;
+    border-bottom: 2px solid #fca311;
+    padding-bottom: 5px;
+}
+
+img {
+    width: 40px;
+}
+
+
+.container {
+    padding: 50px 0;
+}
+
+.generator {
+    width: 70%;
+    max-width: 880px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.display {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 2em 0;
+    border-radius: 5px;
+    /* border: 2px solid yellowgreen; */
+}
+
+.display input {
+    color: rgb(83, 81, 81);
+    border: 0;
+    outline: 0;
+    width: 350px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+}
+
+.copy-img {
+    cursor: pointer;
+    /* border: 0;
+    outline: 0; */
+}
+
+.gen-pass {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fca311;
+    border-radius: 5px;
+    padding: 0 8px;
+    /* cursor: pointer; */
+}
+
+.btn {
+    border: none;
+    outline: 0;
+    background-color: #fca311;
+    color: #FFF;
+    font-size: 1rem;
+    padding: .8em .4em;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
